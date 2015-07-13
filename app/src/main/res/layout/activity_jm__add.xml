@@ -1,0 +1,617 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/searchbg"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/mvname_tv"
+                android:textSize="65dp"
+                android:text="मुलाच्या आईचे नेहमी राहण्याचे गाव"
+                />
+
+
+            <EditText
+                android:id="@+id/mvname_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/mvnum_tv"
+                android:textSize="65dp"
+                android:text="आइचे गाव क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/mvnum_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/mname_tv"
+                android:textSize="65dp"
+                android:text="मुलाच्या आईचे पूर्ण नाव "
+                />
+
+            <EditText
+                android:id="@+id/mname_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/fid_tv"
+                android:textSize="65dp"
+                android:text="कुटुंब ओळख क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/fid_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/hnum_tv"
+                android:textSize="65dp"
+                android:text="घर क्रमांक "
+                />
+
+            <EditText
+                android:id="@+id/hnum_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+				android:inputType="number"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/cid_tv"
+                android:textSize="65dp"
+                android:text="मुलाचा ओळख क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/cid_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+           <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/bd_tv"
+                android:textSize="65dp"
+                android:text="मुलाची जन्म तारीख"
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:id="@+id/bd_dp"
+                android:calendarViewShown="false"
+                android:background="#cccccc"
+                android:datePickerMode="spinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.70"
+                android:spinnersShown="true"
+                android:startYear="1900" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/vob_tv"
+                android:textSize="65dp"
+                android:text="जन्माचे गाव"
+                />
+
+            <EditText
+                android:id="@+id/vob_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/vobnum_tv"
+                android:textSize="65dp"
+                android:text="जन्माचे गाव क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/vobnum_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/bname_tv"
+                android:textSize="65dp"
+                android:text="बाळंतपण करण्याचे गाव"
+                />
+
+            <EditText
+                android:id="@+id/bname_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/bmethod_tv"
+                android:textSize="65dp"
+                android:text="प्रकार"
+                />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="दाई"
+                android:id="@+id/daai"
+                android:onClick="daai_click"
+                android:buttonTint="#ffffff"
+                android:backgroundTint="#ffffffff"
+                android:button="@color/abc_primary_text_material_dark" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="नर्स"
+                android:id="@+id/nurse"
+                android:onClick="nurse_click"
+                android:buttonTint="#ffffff"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="डॉक्टर"
+                android:id="@+id/doctor"
+                android:onClick="doctor_click"
+				android:buttonTint="#ffffff"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="नातेवाईक"
+                android:id="@+id/relatives"
+				android:onClick="relatives_click"
+				android:buttonTint="#ffffff" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textColor="#cccccc"
+                android:layout_marginTop="70dp"
+                android:textSize="60dp"
+                android:text="इतर"
+                android:id="@+id/other"
+				android:onClick="other_click"
+				android:buttonTint="#ffffff"
+                android:buttonTintMode="multiply"
+                android:background="#ff000000" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/cg_tv"
+                android:textSize="65dp"
+                android:text="लिंग"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="मुलगा"
+                android:id="@+id/boy"
+				android:onClick="boy_click" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="मुलगी"
+                android:id="@+id/girl" 
+				android:onClick="girl_click"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/aatod_tv"
+                android:textSize="65dp"
+                android:text="गरोदरपणाचे किती महिने पूर्ण झाले "
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="सात पेक्षा कमी"
+                android:id="@+id/less7"
+				android:onClick="less7_click" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="७ म."
+                android:id="@+id/m7"
+				android:onClick="m7_click" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="८ म."
+                android:id="@+id/m8"
+				android:onClick="m8_click" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="८ म. २१ दि."
+                android:id="@+id/m8d21" 
+				android:onClick="m8d21_click"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="९ म."
+                android:id="@+id/m9" 
+				android:onClick="m9_click"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="मा. ना."
+                android:id="@+id/pdk"
+				android:onClick="pdk_click" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/sad_tv"
+                android:textSize="65dp"
+                android:text="स्त्री आरोग्यदुत बलन्त्पणाचे वेळी हजर होती का"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="होय"
+                android:id="@+id/yes"
+				android:onClick="yes_click" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textSize="60dp"
+                android:text="नाही"
+                android:id="@+id/no" 
+				android:onClick="no_click"/>
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/hmname_tv"
+                android:textSize="65dp"
+                android:text="आरोग्य दुताचे नाव "
+                />
+
+            <EditText
+                android:id="@+id/hmname_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/hmdate_tv"
+                android:textSize="65dp"
+                android:text="तारीख  "
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:id="@+id/hmdate_dp"
+                android:calendarViewShown="false"
+                android:background="#cccccc"
+                android:datePickerMode="spinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.70"
+                android:spinnersShown="true"
+                android:startYear="1900" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/mmkckd_tv"
+                android:textSize="65dp"
+                android:text="मार्गदर्शकाने तपस्ल्याची तारीख "
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:id="@+id/mmkckd_dp"
+                android:calendarViewShown="false"
+                android:background="#cccccc"
+                android:datePickerMode="spinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.70"
+                android:spinnersShown="true"
+                android:startYear="1900" />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/add_mem_b"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="350dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:textSize="60dp"
+                android:onClick="save_click"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

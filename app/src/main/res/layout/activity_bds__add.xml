@@ -1,0 +1,566 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/mvname_tv"
+                android:textSize="65dp"
+                android:text="मुलाच्या आईचे नेहमी राहण्याचे गांव"
+                />
+
+            <EditText
+                android:id="@+id/mvname_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/mvnum_tv"
+                android:textSize="65dp"
+                android:text="आइचे गांव क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/mvnum_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/vob_tv"
+                android:textSize="65dp"
+                android:text="बाळंतपणाचे गांव"
+                />
+
+            <EditText
+                android:id="@+id/vob_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/vobnum_tv"
+                android:textSize="65dp"
+                android:text="बाळंतपणाचे गांव क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/vobnum_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/cfn_tv"
+                android:textSize="65dp"
+                android:text="मुलाचे पूर्ण नाव"
+                />
+
+            <EditText
+                android:id="@+id/cfn_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/cid_tv"
+                android:textSize="65dp"
+                android:text="मुलाचा ओळख क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/cid_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/fid_tv"
+                android:textSize="65dp"
+                android:text="कुटुंबाचा ओळख क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/fid_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:inputType="number"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/hnum_tv"
+                android:textSize="65dp"
+                android:text="घर क्रमांक"
+                />
+
+            <EditText
+                android:id="@+id/hnum_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:inputType="number"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/bd_tv"
+                android:textSize="65dp"
+                android:text="जन्म तारीख "
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:id="@+id/bd_dp"
+                android:calendarViewShown="false"
+                android:background="#cccccc"
+                android:datePickerMode="spinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.70"
+                android:spinnersShown="true"
+                android:startYear="1900" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/dd_tv"
+                android:textSize="65dp"
+                android:text="मृत्युची तारीख"
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:id="@+id/dd_dp"
+                android:calendarViewShown="false"
+                android:background="#cccccc"
+                android:datePickerMode="spinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.70"
+                android:spinnersShown="true"
+                android:startYear="1900" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/aatod_tv"
+                android:textSize="65dp"
+                android:text="मृत्युच्या वेळी वय - दिवस - महिने - वर्ष "
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="70dp"
+                    android:textColor="#cccccc"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aatod_tv_1"
+                    android:textSize="65dp"
+                    android:text="दिवस"
+                    />
+
+                <EditText
+                    android:id="@+id/aatod_et_1"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="70dp"
+                    android:inputType="number"
+                    android:background="#cccccc"
+                    android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="70dp"
+                    android:textColor="#cccccc"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aatod_tv_2"
+                    android:textSize="65dp"
+                    android:text="महिने"
+                    />
+
+                <EditText
+                    android:id="@+id/aatod_et_2"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="70dp"
+                    android:inputType="number"
+                    android:background="#cccccc"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="70dp"
+                    android:textColor="#cccccc"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aatod_tv_3"
+                    android:textSize="65dp"
+                    android:text="वर्ष   "
+                    />
+
+                <EditText
+                    android:id="@+id/aatod_et_3"
+                    android:layout_marginTop="70dp"
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginRight="25dp"
+                    android:inputType="number"
+                    android:layout_height="wrap_content"
+                    android:textSize="70dp"
+                    android:background="#cccccc"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/vod_tv"
+                android:textSize="65dp"
+                android:text="मृत्यूचे गांव  "
+                />
+
+            <EditText
+                android:id="@+id/vod_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/vodnum_tv"
+                android:textSize="65dp"
+                android:text="मृत्यचे गांव क्रमांक "
+                />
+
+            <EditText
+                android:id="@+id/vodnum_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:inputType="number"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/hdname_tv"
+                android:textSize="65dp"
+                android:text="आरोग्य दुताचे नाव "
+                />
+
+            <EditText
+                android:id="@+id/hdname_et"
+                android:layout_marginTop="55dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/hdd_tv"
+                android:textSize="65dp"
+                android:text="तारीख  "
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:id="@+id/hdd_dp"
+                android:calendarViewShown="false"
+                android:background="#cccccc"
+                android:datePickerMode="spinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.70"
+                android:spinnersShown="true"
+                android:startYear="1900" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:textColor="#cccccc"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/mmkckd_tv"
+                android:textSize="65dp"
+                android:text="मार्गदर्शकाने मृत्युच्या कारणाची चौकशी केल्याची तारीख "
+                />
+
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:id="@+id/mmkckd_dp"
+                android:calendarViewShown="false"
+                android:background="#cccccc"
+                android:datePickerMode="spinner"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.70"
+                android:spinnersShown="true"
+                android:startYear="1900" />
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/add_mem_b"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="350dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE"
+                android:textSize="60dp"
+                android:onClick="save_click"
+                android:backgroundTint="@android:color/background_light" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

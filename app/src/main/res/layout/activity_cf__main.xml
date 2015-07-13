@@ -1,0 +1,530 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/searchbg"
+    android:weightSum="1">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="210dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="65dp"
+                android:textColor="#ffffdd"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/hr_tv"
+                android:textSize="35dp"
+                android:text="घरासंबंधी"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffdd"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/walls_tv"
+                        android:textSize="25dp"
+                        android:text="भिंती कशा -"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="10dp">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="सिमेंटच्या"
+                            android:textColor="#ffffdd"
+                            android:textSize="20dp"
+                            android:id="@+id/cement" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="विटांच्या"
+                            android:textSize="20dp"
+                            android:textColor="#ffffdd"
+                            android:id="@+id/brick" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="मातीच्या"
+                            android:textSize="20dp"
+                            android:textColor="#ffffdd"
+                            android:id="@+id/mud"
+                            />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="कुडाच्या"
+                            android:textSize="20dp"
+                            android:textColor="#ffffdd"
+                            android:id="@+id/kud" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="इतर"
+                            android:textSize="20dp"
+                            android:textColor="#ffffee"
+                            android:id="@+id/otherwall" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="0dp">
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffdd"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/roof_tv"
+                        android:textSize="25dp"
+                        android:text="भिंती कशा -"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="10dp">
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="सिमेंटच्या"
+                            android:textColor="#ffffdd"
+                            android:textSize="20dp"
+                            android:id="@+id/cementslab" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="विटांच्या"
+                            android:textSize="20dp"
+                            android:textColor="#ffffdd"
+                            android:id="@+id/mangalore" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="मातीच्या"
+                            android:textSize="20dp"
+                            android:textColor="#ffffdd"
+                            android:id="@+id/normal"
+                            />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="कुडाच्या"
+                            android:textSize="20dp"
+                            android:textColor="#ffffdd"
+                            android:id="@+id/tin" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="इतर"
+                            android:textSize="20dp"
+                            android:textColor="#ffffee"
+                            android:id="@+id/grass" />
+                        <CheckBox
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="इतर"
+                            android:textSize="20dp"
+                            android:textColor="#ffffee"
+                            android:id="@+id/otherroof" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="0dp">
+                    <TextView
+                        android:layout_width="210dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#ffffdd"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/yesno_tv"
+                        android:textSize="25dp"
+                        android:text="भिंती कशा -"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="10dp">
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="सिमेंटच्या"
+                            android:textColor="#ffffdd"
+                            android:textSize="20dp"
+                            android:id="@+id/yes" />
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="विटांच्या"
+                            android:textSize="20dp"
+                            android:textColor="#ffffdd"
+                            android:id="@+id/no" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="70dp"
+
+                    android:textColor="#ffffdd"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nhid_tv"
+                    android:textSize="25dp"
+                    android:text="नवीन घर क्रमांक"
+                    />
+                <EditText
+                    android:id="@+id/nhid_et"
+
+                    android:layout_width="90dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="35dp"
+                    android:textSize="25dp"
+                    android:background="#cccccc"
+                    android:maxLines="1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="100dp"
+
+                    android:textColor="#ffffdd"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nfid_tv"
+                    android:textSize="25dp"
+                    android:text="नवीन कुटुंबाचा ओळख क्रमांक"
+                    />
+                <EditText
+                    android:id="@+id/nfid_et"
+
+                    android:layout_width="90dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="35dp"
+                    android:textSize="25dp"
+                    android:background="#cccccc"
+                    android:maxLines="1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="65dp"
+                    android:textColor="#ffffdd"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/caste_tv"
+                    android:textSize="25dp"
+                    android:text="जात"
+                    />
+                <EditText
+                    android:id="@+id/caste_et"
+                    android:layout_marginTop="65dp"
+                    android:layout_width="175dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="35dp"
+                    android:textSize="25dp"
+                    android:background="#cccccc"
+                    android:maxLines="1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="65dp"
+                    android:textColor="#ffffdd"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/religion_tv"
+                    android:textSize="25dp"
+                    android:text="धर्म"
+                    />
+                <Spinner
+                    android:layout_marginTop="65dp"
+                    android:layout_width="155dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/religion_sp"
+                    android:layout_marginLeft="50dp"
+                    android:dropDownSelector="#ffffffff"
+                    android:spinnerMode="dropdown"
+                    android:popupElevation="50dp"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:background="#cccccc" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="65dp"
+                android:textColor="#ffffdd"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/fhb_tv"
+                android:textSize="35dp"
+                android:text="कुटुंब प्रमुखाचा व्यवसाय"
+                />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#ffffdd"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/fhb1_tv"
+                android:textSize="25dp"
+                android:text="अ)  मुख्य व्यवहार"
+                />
+            <EditText
+                android:id="@+id/fhb1_et"
+                android:layout_marginTop="15dp"
+                android:layout_width="170dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="35dp"
+                android:textSize="25dp"
+                android:background="#cccccc"
+                android:maxLines="1" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#ffffdd"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/fhb2_tv"
+                android:textSize="25dp"
+                android:text="ब)  जोड धंदे"
+                />
+            <EditText
+                android:id="@+id/fhb2_et"
+                android:layout_marginTop="15dp"
+                android:layout_width="170dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="35dp"
+                android:textSize="25dp"
+                android:background="#cccccc"
+                android:maxLines="1"
+                android:hint="१"/>
+            <EditText
+                android:id="@+id/fhb3_et"
+                android:layout_marginTop="15dp"
+                android:layout_width="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:background="#cccccc"
+                android:maxLines="1"
+                android:hint="२"/>
+            <EditText
+                android:id="@+id/fhb4_et"
+                android:layout_marginTop="15dp"
+                android:layout_width="170dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="35dp"
+                android:textSize="25dp"
+                android:background="#cccccc"
+                android:maxLines="1"
+                android:hint="३"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="400dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="65dp"
+                android:textColor="#ffffdd"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/sac_tv"
+                android:textSize="35dp"
+                android:text="शेती असल्यास किती"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#ffffdd"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mdryland_tv"
+                    android:textSize="25dp"
+                    android:text="अ)  कोरडवाहू"
+                    />
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:background="#cccccc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="25dp"
+
+                    android:id="@+id/dryacres_et"
+                    android:inputType="number"
+                    android:maxLines="1"/>
+                <TextView
+                    android:id="@+id/dryacres_tv"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="170dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="एकर"
+                    android:textSize="25dp"
+                    android:textColor="#ffffdd"
+                    android:maxLines="1" />
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:background="#cccccc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="25dp"
+
+                    android:id="@+id/dryg_et"
+                    android:inputType="number"
+                    android:maxLines="1"/>
+                <TextView
+                    android:id="@+id/dryg_tv"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="170dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="गुंठे"
+                    android:textSize="25dp"
+                    android:textColor="#ffffdd"
+                    android:maxLines="1" />
+                </LinearLayout>
+                        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="7dp">
+                <TextView
+                    android:id="@+id/wetlandtp_tv"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="105dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="ब)  ओलीत"
+                    android:textSize="25dp"
+                    android:textColor="#ffffdd"
+                    android:maxLines="1" />
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:background="#cccccc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="25dp"
+                    android:maxLines="1"
+                    android:id="@+id/wetacrestp_et"
+					android:inputType="number" />
+                <TextView
+                    android:id="@+id/wetacrestp_tv"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="170dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="एकर"
+                    android:textSize="25dp"
+                    android:textColor="#ffffdd"
+                    android:maxLines="1" />
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:background="#cccccc"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="0dp"
+                    android:textSize="25dp"
+
+                    android:id="@+id/wetgtp_et"
+					android:inputType="number"
+					android:maxLines="1"/>
+                <TextView
+                    android:id="@+id/wetgtp_tv"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="170dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="गुंठे"
+                    android:textSize="25dp"
+                    android:textColor="#ffffdd"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.poorwa.search" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/search"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".FormActivity"
+            android:label="@string/title_activity_form" >
+        </activity>
+        <activity
+            android:name=".BDS_MainActivity"
+            android:label="@string/title_activity_bds__main" >
+        </activity>
+        <activity
+            android:name=".BDS_AddActivity"
+            android:label="@string/title_activity_bds__add" >
+        </activity>
+        <activity
+            android:name=".BDS_ViewForm"
+            android:label="@string/title_activity_bds__view_form" >
+        </activity>
+        <activity
+            android:name=".JM_MainActivity"
+            android:label="@string/title_activity_jm__main" >
+        </activity>
+        <activity
+            android:name=".JM_AddActivity"
+            android:label="@string/title_activity_jm__add" >
+        </activity>
+        <activity
+            android:name=".JM_ViewForm"
+            android:label="@string/title_activity_jm__view_form" >
+        </activity>
+        <activity
+            android:name=".CensusActivity"
+            android:label="@string/title_activity_census" >
+        </activity>
+        <activity
+            android:name=".CF_MainActivity"
+            android:label="@string/title_activity_cf__main" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Search</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">मुख्य मेनू</string>
+    <string name="title_activity_form">अर्ज मेनू</string>
+    <string name="title_activity_bds__main">मोठे मृत्यू</string>
+    <string name="title_activity_bds__add">व्यक्ती माहिती</string>
+    <string name="title_activity_bds__view_form">अर्ज संपादन</string>
+    <string name="title_activity_jm__main">JM_MainActivity</string>
+    <string name="title_activity_jm__add">JM_AddActivity</string>
+    <string name="title_activity_jm__view_form">अर्ज संपादन</string>
+    <string name="title_activity_census">जनगणना फॉर्म</string>
+    <string name="title_activity_cf__main">जनगणना फॉर्म</string>
+</resources>
